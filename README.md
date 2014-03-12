@@ -15,19 +15,14 @@ xls2kml
 2. 确认是否有分类内容列，默认为无分类
 3. 点击生成，在原excel文档位置生成kml文件
 
-> __Excel的数据格式__
-> 
-> 无分类
-
-> 共三列，分别为：地点名称，经度，纬度
-
-> 如：舒兰,126.9409556581703,44.41078056918841
-
-> 有分类
-
-> 共四列，分别为：文件夹名、地点名称，经度，纬度
-
-> 如：吉林,舒兰,126.9409556581703,44.41078056918841
+==__Excel的数据格式__==
+ 
+    无分类
+    共三列，分别为：地点名称，经度，纬度
+    如：舒兰,126.9409556581703,44.41078056918841
+    有分类
+    共四列，分别为：文件夹名、地点名称，经度，纬度
+    如：吉林,舒兰,126.9409556581703,44.41078056918841
 
 ===__历史__===
 
@@ -51,19 +46,14 @@ convert *MS Excel* file(xls or xlsx) to google earth file(.kml)
 2. if there is catogery coloum in the file, check the *catogery* checkbox
 3. click 'generate', the kml file will be saved to the folder which contains the excel file
 
-> __Data Format in Excel__
+===__Data Format in Excel__===
 
-> without catogery
-
-> 3 columes: Name, Longitude, Latitude
-
-> e.g. shulan, 126.9409556581703, 44.41078056918841
-
-> with catogery
-
-> 4 columes: Catogery, Name, Longitude, Latitude
-
-> e.g. jilin, shulan, 126.9409556581703, 44.41078056918841
+    without catogery
+    3 columes: Name, Longitude, Latitude
+    e.g. shulan, 126.9409556581703, 44.41078056918841
+    with catogery
+    4 columes: Catogery, Name, Longitude, Latitude
+    e.g. jilin, shulan, 126.9409556581703, 44.41078056918841
 
 ===__History__===
 
